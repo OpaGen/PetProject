@@ -1,0 +1,115 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.olifirpavelsoft.pavel.mysticalimage.camerashotfoto">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fon2">
+
+        <TextView android:id="@+id/fullscreen_content" android:layout_width="match_parent"
+            android:layout_height="match_parent" android:keepScreenOn="true" android:textColor="#33b5e5"
+            android:textStyle="bold" android:textSize="50sp" android:gravity="center" />
+
+        <LinearLayout android:id="@+id/fullscreen_content_controls" style="?metaButtonBarStyle"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay" android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:id="@+id/imGal"
+            android:background="@drawable/camera"
+            android:layout_marginTop="161dp"
+            android:layout_below="@+id/fullscreen_content_controls"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:onClick="onClickGalleryOpen" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:id="@+id/editpassword"
+            android:maxLines="0"
+            android:password="true"
+            android:background="#a05e5c5c"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:maxLength="8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/Please_take_password"
+            android:id="@+id/textView"
+            android:textSize="18dp"
+            android:layout_alignTop="@+id/imGal"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/editshowtext"
+            android:visibility="visible"
+            android:autoText="false"
+            android:layout_alignLeft="@+id/button3"
+            android:layout_alignStart="@+id/button3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="#a05e5c5c"
+            android:layout_below="@+id/imGal" />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:text="@string/Disclose"
+            android:id="@+id/button3"
+            android:background="#c64c4a4a"
+            android:onClick="onClickToSecret"
+            android:layout_alignTop="@+id/button4"
+            android:layout_toLeftOf="@+id/progressBar"
+            android:layout_toStartOf="@+id/progressBar" />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:text="@string/Concealment_and_Save"
+            android:id="@+id/button4"
+            android:onClick="onClickToSaveSecretImage"
+            android:background="#c64c4a4a"
+            android:layout_below="@+id/editshowtext"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:visibility="invisible"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</FrameLayout>

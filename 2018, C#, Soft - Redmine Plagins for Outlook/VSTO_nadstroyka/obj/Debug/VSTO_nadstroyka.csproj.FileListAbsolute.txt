@@ -1,0 +1,17 @@
+D:\Soft\Sources\VSTO\VSTO_nadstroyka\VSTO_nadstroyka\VSTO_nadstroyka\bin\Debug\VSTO_nadstroyka.dll
+D:\Soft\Sources\VSTO\VSTO_nadstroyka\VSTO_nadstroyka\VSTO_nadstroyka\bin\Debug\VSTO_nadstroyka.pdb
+D:\Soft\Sources\VSTO\VSTO_nadstroyka\VSTO_nadstroyka\VSTO_nadstroyka\bin\Debug\VSTO_nadstroyka.dll.manifest
+D:\Soft\Sources\VSTO\VSTO_nadstroyka\VSTO_nadstroyka\VSTO_nadstroyka\bin\Debug\VSTO_nadstroyka.vsto
+D:\Soft\Sources\VSTO\VSTO_nadstroyka\VSTO_nadstroyka\VSTO_nadstroyka\bin\Debug\Microsoft.Office.Tools.Common.dll
+D:\Soft\Sources\VSTO\VSTO_nadstroyka\VSTO_nadstroyka\VSTO_nadstroyka\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+D:\Soft\Sources\VSTO\VSTO_nadstroyka\VSTO_nadstroyka\VSTO_nadstroyka\bin\Debug\Microsoft.Office.Tools.dll
+D:\Soft\Sources\VSTO\VSTO_nadstroyka\VSTO_nadstroyka\VSTO_nadstroyka\bin\Debug\Microsoft.Office.Tools.Outlook.dll
+D:\Soft\Sources\VSTO\VSTO_nadstroyka\VSTO_nadstroyka\VSTO_nadstroyka\bin\Debug\Microsoft.Office.Tools.Outlook.v4.0.Utilities.dll
+D:\Soft\Sources\VSTO\VSTO_nadstroyka\VSTO_nadstroyka\VSTO_nadstroyka\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+D:\Soft\Sources\VSTO\VSTO_nadstroyka\VSTO_nadstroyka\VSTO_nadstroyka\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+D:\Soft\Sources\VSTO\VSTO_nadstroyka\VSTO_nadstroyka\VSTO_nadstroyka\obj\Debug\VSTO_nadstroyka.csprojResolveAssemblyReference.cache
+D:\Soft\Sources\VSTO\VSTO_nadstroyka\VSTO_nadstroyka\VSTO_nadstroyka\obj\Debug\VSTO_nadstroyka.Properties.Resources.resources
+D:\Soft\Sources\VSTO\VSTO_nadstroyka\VSTO_nadstroyka\VSTO_nadstroyka\obj\Debug\VSTO_nadstroyka.csproj.GenerateResource.Cache
+D:\Soft\Sources\VSTO\VSTO_nadstroyka\VSTO_nadstroyka\VSTO_nadstroyka\obj\Debug\VSTO_nadstroyka.dll
+D:\Soft\Sources\VSTO\VSTO_nadstroyka\VSTO_nadstroyka\VSTO_nadstroyka\obj\Debug\VSTO_nadstroyka.pdb
+D:\Soft\Sources\VSTO\VSTO_nadstroyka\VSTO_nadstroyka\VSTO_nadstroyka\obj\Debug\VSTO_nadstroyka.Vigruzki.resources

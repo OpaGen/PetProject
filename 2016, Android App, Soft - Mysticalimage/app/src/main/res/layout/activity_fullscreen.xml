@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FullscreenActivity"
+    android:contextClickable="false">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fon2"
+        android:contextClickable="false">
+
+        <TextView android:id="@+id/fullscreen_content" android:layout_width="match_parent"
+            android:layout_height="match_parent" android:keepScreenOn="true" android:textColor="#33b5e5"
+            android:textStyle="bold" android:textSize="50sp" android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/fon2" />
+
+        <LinearLayout android:id="@+id/fullscreen_content_controls" style="?metaButtonBarStyle"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            android:text="@string/Camera_Shot"
+            android:id="@+id/button"
+            android:background="@drawable/camera"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:onClick="onClickCameraShot"
+            android:layout_below="@+id/fullscreen_content_controls"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="99dp" />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            android:text="@string/Gallery"
+            android:id="@+id/button2"
+            android:background="@drawable/er"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:onClick="onClickGalleryOpen"
+            android:layout_alignBottom="@+id/button"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageButton"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:onClick="onClickAboutProgramm"
+            android:background="@drawable/soos" />
+
+        <ImageButton
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:id="@+id/imageButton2"
+            android:background="@drawable/abc_btn_rating_star_off_mtrl_alpha"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:onClick="onClickstarprogram" />
+
+    </RelativeLayout>
+
+</FrameLayout>
